@@ -1,8 +1,8 @@
 {
   "name": "Homegear",
   "version": "0.2",
-  "slug": "rpi-homegear",
-  "description": "Homegear as a Hassio add-on",
+  "slug": "homegear",
+  "description": "Homegear",
   "startup": "before",
   "boot": "auto",
   "gpio": true,
@@ -23,7 +23,5 @@
   "schema": {
   },
   "devices": [
-    "/dev/ttyAMA0:/dev/ttyAMA0:rwm",
-    "/dev/ttyACM0:/dev/ttyACM0:rwm"
   ]
 }
